@@ -49,4 +49,3 @@ function processNumbers(arr){
         arr => arr.map((n) => `N-${n}`),
     )(arr)
 }
-console.log(processNumbers([1,4,7]));
